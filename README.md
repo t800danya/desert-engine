@@ -4,7 +4,7 @@
 
 <b>Desert Engine</b> is <i>TRUE</i> open-source Free game engine based on <b>Arctic Engine</b> (just simple open source game engine released under the MIT license) 
 
-<b>Desert Engine</b> is implemented in TRUE C++ and focuses on <i>simplicity itself</i>!
+<b>Desert Engine</b> is implemented in <i>TRUE</i> C++ and focuses on <i>simplicity itself</i>!
 
 ## License
 Licensed under the MIT license, see License.txt for details.
