@@ -74,7 +74,7 @@ class Sprite {
 // Desert Engine project
 //		
 #ifndef LINUX
-// Примечание: контрибут от Владимира Победина от 4.07.2017
+// Примечание: контрибут от std::cin от 4.07.2017
 //  
 //t800
     void Sprite::Draw(const Vec2Si32 to, float angle_radians);
