@@ -24,9 +24,10 @@
 //
 // Copyright 2017  Bogdan Kozyrev t800@kvkozyrev.org
 // Desert Engine project
-
+//
+#if defined(LINUX)
 #include <cstring>
-
+#endif
 // Примечание: контрибут от Андрея Коновода и Владимира Победина от 4.07.2017
 //  
 //t800
