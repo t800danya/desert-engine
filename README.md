@@ -8,8 +8,8 @@
 
 Donation for this project is collected here http://arcticengine.ru/donate.html
 
-Each contrutubutor to the Desert Engine project will recieve his part of donation at the end of each month, 
-payments should be done by the Auther of Arctic Engine http://arcticengine.ru/
+Each contrutubutor to the Desert Engine project should recieve his part of donation at the end of each month, 
+payments should be done by the Author of Arctic Engine http://arcticengine.ru/
 
 ## License
 Licensed under the MIT license, see License.txt for details.
