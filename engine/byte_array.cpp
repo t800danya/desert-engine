@@ -20,6 +20,19 @@
 // FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS
 // IN THE SOFTWARE.
 
+//t800 
+//
+// Copyright 2017  Bogdan Kozyrev t800@kvkozyrev.org
+// Desert Engine project
+
+#include <cstring>
+
+// Примечание контрибут от Андрея Коновода и Владимира Победина
+//
+//t800
+
+
+
 #include "engine/byte_array.h"
 
 #include <memory>
