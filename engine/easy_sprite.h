@@ -68,6 +68,15 @@ class Sprite {
         const Si32 from_width, const Si32 from_height,
         Sprite to_sprite);
 
+//t800 
+//
+// Copyright 2017  Bogdan Kozyrev t800@kvkozyrev.org
+// Desert Engine project
+//		
+#ifndef LINUX
+// Примечание: контрибут от Владимира Победина от 4.07.2017
+//  
+//t800
     void Sprite::Draw(const Vec2Si32 to, float angle_radians);
     void Sprite::Draw(const Si32 to_x, const Si32 to_y, float angle_radians);
     void Sprite::Draw(const Vec2Si32 to, float angle_radians, float zoom);
@@ -75,6 +84,9 @@ class Sprite {
         float angle_radians, float zoom);
     void Sprite::Draw(const Si32 to_x, const Si32 to_y,
         float angle_radians, float zoom, Sprite to_sprite);
+// t800		
+#endif
+// t800		
 
     Si32 Width() const;
     Si32 Height() const;
