@@ -36,6 +36,7 @@ namespace easy {
 class Sound {
  private:
     std::shared_ptr<SoundInstance> sound_instance_;
+//t800		
     stb_vorbis *vorbis_codec_ = nullptr;
 public:
     void Load(const std::string &file_name, bool do_unpack);

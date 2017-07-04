@@ -20,6 +20,7 @@
 // FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS
 // IN THE SOFTWARE.
 
+
 //t800 
 //
 // Copyright 2017  Bogdan Kozyrev t800@kvkozyrev.org
@@ -28,7 +29,6 @@
 #if defined (LINUX)
 #include <cstring>
 #endif
-//t800
 
 #include "easy_sound_instance.h"
 

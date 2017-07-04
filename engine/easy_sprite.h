@@ -23,22 +23,26 @@
 #ifndef ENGINE_EASY_SPRITE_H_
 #define ENGINE_EASY_SPRITE_H_
 
+
+//t800 
+//
+// Copyright 2017  Bogdan Kozyrev t800@kvkozyrev.org
+// Desert Engine project
+//		
+// Примечание: контрибут от Андрея Коновода от 4.07.2017
+//t800
+#include "GL/gl.h"
+//t800
+
 #include <string>
 #include <memory>
 
-#if defined (LINUX)
 #include "easy_sprite_instance.h"
 #include "arctic_types.h"
 #include "vec2si32.h"
 #include "rgba.h"
-#endif
 
-#ifndef LINUX
-#include "easy_sprite_instance.h"
-#include "arctic_types.h"
-#include "vec2si32.h"
-#include "rgba.h"
-#endif
+
 
 namespace arctic {
 namespace easy {
@@ -82,19 +86,15 @@ class Sprite {
 // Copyright 2017  Bogdan Kozyrev t800@kvkozyrev.org
 // Desert Engine project
 //		
-#ifndef LINUX
-// Примечание: контрибут от Владимира Победина от 4.07.2017
-//  
+// Примечание: контрибут от exchg от 4.07.2017
 //t800
-    void Sprite::Draw(const Vec2Si32 to, float angle_radians);
-    void Sprite::Draw(const Si32 to_x, const Si32 to_y, float angle_radians);
-    void Sprite::Draw(const Vec2Si32 to, float angle_radians, float zoom);
-    void Sprite::Draw(const Si32 to_x, const Si32 to_y,
+    void Draw(const Vec2Si32 to, float angle_radians);
+    void Draw(const Si32 to_x, const Si32 to_y, float angle_radians);
+    void Draw(const Vec2Si32 to, float angle_radians, float zoom);
+    void Draw(const Si32 to_x, const Si32 to_y,
         float angle_radians, float zoom);
-    void Sprite::Draw(const Si32 to_x, const Si32 to_y,
+    void Draw(const Si32 to_x, const Si32 to_y,
         float angle_radians, float zoom, Sprite to_sprite);
-// t800		
-#endif
 // t800		
     Si32 Width() const;
     Si32 Height() const;
