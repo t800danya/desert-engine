@@ -20,7 +20,7 @@
 // FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS
 // IN THE SOFTWARE.
 
-#include "engine/easy.h"
+#include "easy.h"
 
 #include <algorithm>
 #include <chrono>  // NOLINT
@@ -28,7 +28,7 @@
 #include <thread>  // NOLINT
 #include <utility>
 
-#include "engine/arctic_platform.h"
+#include "arctic_platform.h"
 
 namespace arctic {
 namespace easy {

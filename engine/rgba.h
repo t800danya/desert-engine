@@ -23,7 +23,7 @@
 #ifndef ENGINE_RGBA_H_
 #define ENGINE_RGBA_H_
 
-#include "engine/arctic_types.h"
+#include "arctic_types.h"
 
 namespace arctic {
 

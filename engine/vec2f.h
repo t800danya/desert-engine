@@ -25,8 +25,8 @@
 #define ENGINE_VEC2F_H_
 
 #include <cmath>
-#include "engine/arctic_types.h"
-#include "engine/vec2si32.h"
+#include "arctic_types.h"
+#include "vec2si32.h"
 
 namespace arctic {
 

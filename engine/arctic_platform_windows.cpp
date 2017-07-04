@@ -20,7 +20,7 @@
 // FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS
 // IN THE SOFTWARE.
 
-#include "engine/arctic_platform_def.h"
+#include "arctic_platform_def.h"
 
 #ifdef ARCTIC_PLATFORM_WINDOWS
 
@@ -40,13 +40,13 @@
 #include <thread>  // NOLINT
 #include <vector>
 
-#include "engine/engine.h"
-#include "engine/easy.h"
-#include "engine/arctic_input.h"
-#include "engine/arctic_platform.h"
-#include "engine/byte_array.h"
-#include "engine/rgb.h"
-#include "engine/vec3f.h"
+#include "engine.h"
+#include "easy.h"
+#include "arctic_input.h"
+#include "arctic_platform.h"
+#include "byte_array.h"
+#include "rgb.h"
+#include "vec3f.h"
 
 #pragma comment(lib, "winmm.lib")
 #pragma comment(lib, "Ws2_32.lib")

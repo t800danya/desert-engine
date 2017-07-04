@@ -23,7 +23,7 @@
 #ifndef ENGINE_OPENGL_H_
 #define ENGINE_OPENGL_H_
 
-#include "engine/arctic_platform_def.h"
+#include "arctic_platform_def.h"
 
 #ifdef ARCTIC_PLATFORM_WINDOWS
 

@@ -24,8 +24,8 @@
 #define ENGINE_ARCTIC_PLATFORM_H_
 
 #include <vector>
-#include "engine/arctic_types.h"
-#include "engine/easy_sound.h"
+#include "arctic_types.h"
+#include "easy_sound.h"
 
 namespace arctic {
 

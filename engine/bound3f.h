@@ -25,9 +25,9 @@
 #define ENGINE_BOUND3F_H_
 
 #include <cmath>
-#include "engine/arctic_types.h"
-#include "engine/vec3f.h"
-#include "engine/mat44f.h"
+#include "arctic_types.h"
+#include "vec3f.h"
+#include "mat44f.h"
 
 namespace arctic {
 

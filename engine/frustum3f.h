@@ -25,8 +25,8 @@
 #define ENGINE_FRUSTUM3F_H_
 
 #include <cmath>
-#include "engine/arctic_types.h"
-#include "engine/vec4f.h"
+#include "arctic_types.h"
+#include "vec4f.h"
 
 namespace arctic {
 

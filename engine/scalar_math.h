@@ -25,7 +25,7 @@
 #define ENGINE_SCALAR_MATH_H_
 
 #include <cmath>
-#include "engine/arctic_types.h"
+#include "arctic_types.h"
 
 namespace arctic {
 

@@ -24,21 +24,20 @@
 //
 // Copyright 2017  Bogdan Kozyrev t800@kvkozyrev.org
 // Desert Engine project
-//
-#if defined(LINUX)
+
+#if defined (LINUX)
 #include <cstring>
 #endif
-// Примечание: контрибут от Андрея Коновода от 4.07.2017
-//  
+
+// Примечание контрибут от Андрея Коновода и Владимира Победина
+//
 //t800
 
-
-
-#include "engine/byte_array.h"
+#include "byte_array.h"
 
 #include <memory>
 
-#include "engine/arctic_platform.h"
+#include "arctic_platform.h"
 
 namespace arctic {
 

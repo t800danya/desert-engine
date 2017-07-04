@@ -25,9 +25,9 @@
 
 #include <chrono>  // NOLINT
 
-#include "engine/arctic_platform.h"
-#include "engine/easy_sprite.h"
-#include "engine/vec2f.h"
+#include "arctic_platform.h"
+#include "easy_sprite.h"
+#include "vec2f.h"
 
 namespace arctic {
 

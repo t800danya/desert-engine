@@ -24,8 +24,8 @@
 #ifndef ENGINE_ARCTIC_INPUT_H_
 #define ENGINE_ARCTIC_INPUT_H_
 
-#include "engine/arctic_math.h"
-#include "engine/arctic_types.h"
+#include "arctic_math.h"
+#include "arctic_types.h"
 
 namespace arctic {
 

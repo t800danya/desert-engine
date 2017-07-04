@@ -24,19 +24,19 @@
 #ifndef ENGINE_ARCTIC_MATH_H_
 #define ENGINE_ARCTIC_MATH_H_
 
-#include "engine/bound2f.h"
-#include "engine/bound3f.h"
-#include "engine/frustum3f.h"
-#include "engine/mat22f.h"
-#include "engine/mat33f.h"
-#include "engine/mat44f.h"
-#include "engine/scalar_math.h"
-#include "engine/vec2f.h"
-#include "engine/vec2si32.h"
-#include "engine/vec3f.h"
-#include "engine/vec3si32.h"
-#include "engine/vec4f.h"
-#include "engine/vec4si32.h"
+#include "bound2f.h"
+#include "bound3f.h"
+#include "frustum3f.h"
+#include "mat22f.h"
+#include "mat33f.h"
+#include "mat44f.h"
+#include "scalar_math.h"
+#include "vec2f.h"
+#include "vec2si32.h"
+#include "vec3f.h"
+#include "vec3si32.h"
+#include "vec4f.h"
+#include "vec4si32.h"
 
 namespace arctic {
 }  // namespace arctic

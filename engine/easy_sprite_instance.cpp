@@ -21,13 +21,13 @@
 // FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS
 // IN THE SOFTWARE.
 
-#include "engine/easy_sprite_instance.h"
+#include "easy_sprite_instance.h"
 
 #include <memory>
 
-#include "engine/arctic_platform.h"
-#include "engine/rgb.h"
-#include "engine/rgba.h"
+#include "arctic_platform.h"
+#include "rgb.h"
+#include "rgba.h"
 
 namespace arctic {
 namespace easy {

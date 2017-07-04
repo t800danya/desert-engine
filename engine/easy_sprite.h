@@ -26,10 +26,19 @@
 #include <string>
 #include <memory>
 
-#include "engine/easy_sprite_instance.h"
-#include "engine/arctic_types.h"
-#include "engine/vec2si32.h"
-#include "engine/rgba.h"
+#if defined (LINUX)
+#include "easy_sprite_instance.h"
+#include "arctic_types.h"
+#include "vec2si32.h"
+#include "rgba.h"
+#endif
+
+#ifndef LINUX
+#include "easy_sprite_instance.h"
+#include "arctic_types.h"
+#include "vec2si32.h"
+#include "rgba.h"
+#endif
 
 namespace arctic {
 namespace easy {
@@ -74,7 +83,7 @@ class Sprite {
 // Desert Engine project
 //		
 #ifndef LINUX
-// Примечание: контрибут от std::cin от 4.07.2017
+// Примечание: контрибут от Владимира Победина от 4.07.2017
 //  
 //t800
     void Sprite::Draw(const Vec2Si32 to, float angle_radians);
@@ -87,7 +96,6 @@ class Sprite {
 // t800		
 #endif
 // t800		
-
     Si32 Width() const;
     Si32 Height() const;
     Vec2Si32 Size() const;

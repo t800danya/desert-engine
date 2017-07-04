@@ -26,7 +26,7 @@
 #include <string>
 #include <memory>
 
-#include "engine/easy_sound_instance.h"
+#include "easy_sound_instance.h"
 
 struct stb_vorbis;
 
@@ -36,7 +36,8 @@ namespace easy {
 class Sound {
  private:
     std::shared_ptr<SoundInstance> sound_instance_;
-    stb_vorbis *vorbis_codec_ = nullptr;
+//t800		
+//    stb_vorbis *vorbis_codec_ = nullptr;
 public:
     void Load(const std::string &file_name, bool do_unpack);
     void Load(const char *file_name, bool do_unpack);

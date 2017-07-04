@@ -26,13 +26,25 @@
 #include <string>
 #include <vector>
 
-#include "engine/arctic_input.h"
-#include "engine/arctic_types.h"
-#include "engine/vec2si32.h"
-#include "engine/rgba.h"
-#include "engine/easy_sound.h"
-#include "engine/easy_sprite.h"
-#include "engine/engine.h"
+#if defined(LINUX)
+#include "arctic_input.h"
+#include "arctic_types.h"
+#include "vec2si32.h"
+#include "rgba.h"
+#include "easy_sound.h"
+#include "easy_sprite.h"
+#include "engine.h"
+#endif
+
+#ifndef LINUX
+#include "arctic_input.h"
+#include "arctic_types.h"
+#include "vec2si32.h"
+#include "rgba.h"
+#include "easy_sound.h"
+#include "easy_sprite.h"
+#include "engine.h"
+#endif
 
 namespace arctic {
 namespace easy {

@@ -20,10 +20,10 @@
 // FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS
 // IN THE SOFTWARE.
 
-#include "engine/engine.h"
-#include "engine/opengl.h"
-#include "engine/arctic_platform.h"
-#include "engine/arctic_math.h"
+#include "engine.h"
+#include "opengl.h"
+#include "arctic_platform.h"
+#include "arctic_math.h"
 
 namespace arctic {
 

@@ -24,8 +24,8 @@
 #define ENGINE_EASY_SPRITE_INSTANCE_H_
 
 #include <memory>
-#include "engine/arctic_types.h"
-#include "engine/byte_array.h"
+#include "arctic_types.h"
+#include "byte_array.h"
 
 namespace arctic {
 namespace easy {

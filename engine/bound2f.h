@@ -25,8 +25,8 @@
 #define ENGINE_BOUND2F_H_
 
 #include <cmath>
-#include "engine/arctic_types.h"
-#include "engine/vec2f.h"
+#include "arctic_types.h"
+#include "vec2f.h"
 
 namespace arctic {
 struct Bound2F {

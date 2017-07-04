@@ -20,19 +20,19 @@
 // FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS
 // IN THE SOFTWARE.
 
-#include "engine/easy_sound.h"
+#include "easy_sound.h"
 
 #include <algorithm>
 #include <vector>
 
-#include "engine/arctic_platform.h"
-#include "engine/easy.h"
-#include "engine/easy_sound_instance.h"
+#include "arctic_platform.h"
+#include "easy.h"
+#include "easy_sound_instance.h"
 
 #define STB_VORBIS_NO_PUSHDATA_API
 #define STB_VORBIS_NO_STDIO
 #define STB_VORBIS_MAX_CHANNELS    2
-#include "engine/stb_vorbis.inc"
+#include "stb_vorbis.inc"
 
 namespace arctic {
 namespace easy {

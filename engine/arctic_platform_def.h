@@ -23,7 +23,7 @@
 #ifndef ENGINE_ARCTIC_PLATFORM_DEF_H_
 #define ENGINE_ARCTIC_PLATFORM_DEF_H_
 
-#include "engine/arctic_types.h"
+#include "arctic_types.h"
 
 #ifdef _WIN32
 #define ARCTIC_PLATFORM_WINDOWS
