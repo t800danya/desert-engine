@@ -20,6 +20,17 @@
 // FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS
 // IN THE SOFTWARE.
 
+//t800 
+//
+// Copyright 2017  Bogdan Kozyrev t800@kvkozyrev.org
+// Desert Engine project
+// Контрибут от  Андрей Коновод 4.07.2017
+
+#if defined (LINUX)
+#include <cstring>
+#endif
+//t800
+
 #include "easy_sprite.h"
 
 #include <algorithm>
