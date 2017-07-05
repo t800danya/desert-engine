@@ -29,6 +29,14 @@
 #define ARCTIC_PLATFORM_WINDOWS
 #endif  // _WIN32
 
+
+
+#ifdef LINUX
+#define DESERT_PLATFORM_LINUX
+#endif  // LINUX
+
+//t800
+
 namespace arctic {
 
 }  // namespace arctic
