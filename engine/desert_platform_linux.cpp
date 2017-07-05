@@ -26,3 +26,14 @@
  * OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE,            *
  * EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.                           *
  *******************************************************************************/
+
+#include "arctic_platform_def.h"
+
+#ifdef DESERT_PLATFORM_LINUX
+
+
+
+#endif //DESERT_PLATFORM_LINUX
+
+
+
