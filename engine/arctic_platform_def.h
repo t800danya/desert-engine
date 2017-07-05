@@ -29,7 +29,11 @@
 #define ARCTIC_PLATFORM_WINDOWS
 #endif  // _WIN32
 
-
+//t800 
+//
+// Copyright 2017  Bogdan Kozyrev t800@kvkozyrev.org
+// Desert Engine project
+//
 
 #ifdef LINUX
 #define DESERT_PLATFORM_LINUX
