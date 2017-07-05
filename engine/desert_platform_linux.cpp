@@ -31,6 +31,10 @@
 
 #ifdef DESERT_PLATFORM_LINUX
 
+// Примечание от t800: Контрибуты складывать СЮДА! :-) 
+
+
+
 
 
 #endif //DESERT_PLATFORM_LINUX
